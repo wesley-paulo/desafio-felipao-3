@@ -1,3 +1,6 @@
+// Autor: Wesley Paulo R. da Silva
+// Data: 13/02/2024
+
 class classeHeroi{
     constructor(nameHero, ageHero, typeHero){
         this.nameHero = nameHero;
@@ -24,7 +27,7 @@ class classeHeroi{
                 ataque = "usando shuriken"
             break;
         }
-        
+
         console.log(`Com apemas ${this.ageHero} anos, o ${this.typeHero} ${this.nameHero} atacou ${ataque}.`);
     }
 }
